@@ -14,5 +14,5 @@
    ./setup.sh
    ```
 
-FE url: http://localhost:8000/static/index.html
-Admin url: http://localhost:8000/visits
+## FE url: http://localhost:8000/static/index.html
+## Admin url: http://localhost:8000/visits
