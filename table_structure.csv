@@ -1,0 +1,8 @@
+id,bigint unsigned,NO,PRI,,auto_increment
+page,varchar(512),NO,"",,""
+client_timestamp,timestamp,NO,"",,""
+ip_address,varchar(39),YES,"",,""
+user_agent,varchar(1024),YES,"",,""
+fingerprint,varchar(64),NO,"",,""
+created_at,timestamp,YES,"",,""
+updated_at,timestamp,YES,"",,""

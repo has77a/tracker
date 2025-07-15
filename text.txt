@@ -1,0 +1,140 @@
+
+Internal Server Error
+
+Illuminate\Database\QueryException
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tracker.sessions' doesn't exist (Connection: mysql, SQL: select * from `sessions` where `id` = wQvgCAU7P5Zpi6h7Qg6kGcLShCWhbcGxqzF3yJ6a limit 1)
+GET localhost:8000
+PHP 8.2.29 — Laravel 12.20.0
+vendor/laravel/framework/src/Illuminate/Database/Connection.php :822
+
+vendor/laravel/framework/src/Illuminate/Database/Connection.php :776
+
+vendor/laravel/framework/src/Illuminate/Database/Connection.php :395
+
+vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php :3131
+
+vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php :3116
+
+vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php :3706
+
+vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php :3115
+
+vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php :366
+
+vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php :3038
+
+vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php :96
+
+vendor/laravel/framework/src/Illuminate/Session/Store.php :116
+
+vendor/laravel/framework/src/Illuminate/Session/Store.php :104
+
+vendor/laravel/framework/src/Illuminate/Session/Store.php :88
+
+vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php :146
+
+vendor/laravel/framework/src/Illuminate/Support/helpers.php :399
+
+vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php :143
+
+vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php :115
+
+vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php :63
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php :36
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php :74
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :126
+
+vendor/laravel/framework/src/Illuminate/Routing/Router.php :807
+
+vendor/laravel/framework/src/Illuminate/Routing/Router.php :786
+
+vendor/laravel/framework/src/Illuminate/Routing/Router.php :750
+
+vendor/laravel/framework/src/Illuminate/Routing/Router.php :739
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php :200
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :169
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php :21
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php :31
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php :21
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php :51
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php :27
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php :109
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php :48
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php :58
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php :22
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php :26
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :208
+
+vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php :126
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php :175
+
+vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php :144
+
+vendor/laravel/framework/src/Illuminate/Foundation/Application.php :1219
+
+public/index.php :20
+
+Request
+GET /
+Headers
+host
+localhost:8000
+referer
+http://localhost:8000/api/collect
+connection
+keep-alive
+accept-encoding
+gzip, deflate, br
+postman-token
+1ac591a7-75c8-4e29-a003-cd594a7f7648
+accept
+*/*
+user-agent
+PostmanRuntime/7.28.4
+Body
+No body data
+Application
+Routing
+controller
+Closure
+middleware
+web
+Database Queries
+No query data
