@@ -20,7 +20,7 @@ final class PageVisitRepository
         sessions AS (
             SELECT
                 *,
-                CASE WHEN ts - COALESCE(prev_ts, 0) > ? THEN 1 ELSE 0 END AS new_session_flag
+                CASE WHEN ts - COALESCE(prev_ts, 0) >= ? THEN 1 ELSE 0 END AS new_session_flag
             FROM ordered_visits
         ),
         session_groups AS (
