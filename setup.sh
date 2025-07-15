@@ -2,7 +2,7 @@
 
 # Start Docker containers
 echo "Starting Docker containers..."
-docker compose up -d
+docker compose up --build -d
 
 # Run Composer install
 echo "Running Composer..."
